@@ -6,8 +6,8 @@ def main():
     print (f'Länge des Textes: {length}')
 
     # Text in Grossbuchstaben umwandeln
-    upper = some_text.upper()   # = 'HALLO'
-    print (f'Text in Grossbuchstaben: {upper}')
+    upper_text = some_text.upper()   # = 'HALLO'
+    print (f'Text in Grossbuchstaben: {upper_text}')
 
     # Einen einzelnen Buchstaben aus einem Text holen
     # Wichtig: Der erste Buchstabe hat Position 0, der zweite Buchstabe hat Position 1, ...
