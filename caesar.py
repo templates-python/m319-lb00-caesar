@@ -6,8 +6,8 @@ def encrypt():
     reads a plain text and a key and prints the encrypted text
     :return: None
     """
-    # write your code here and delete the line "pass"
-    pass
+    plain_text = input('Klartext: ')
+    upper_text = plain_text.upper()
 
 
 if __name__ == '__main__':
